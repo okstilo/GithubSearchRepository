@@ -13,6 +13,8 @@
 		4DD91CED1EBE131A00887B6E /* JSONDecodeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD91CEC1EBE131A00887B6E /* JSONDecodeError.swift */; };
 		4DD91CEF1EBE178700887B6E /* JSONDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD91CEE1EBE178700887B6E /* JSONDecodable.swift */; };
 		4DD91CF11EBE2A0000887B6E /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD91CF01EBE2A0000887B6E /* SearchResponse.swift */; };
+		4DD91CF61EBE2CC800887B6E /* GithubClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD91CF51EBE2CC800887B6E /* GithubClientError.swift */; };
+		4DD91CF81EBE2D8F00887B6E /* GithubAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD91CF71EBE2D8F00887B6E /* GithubAPIError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +37,8 @@
 		4DD91CEC1EBE131A00887B6E /* JSONDecodeError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecodeError.swift; sourceTree = "<group>"; };
 		4DD91CEE1EBE178700887B6E /* JSONDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecodable.swift; sourceTree = "<group>"; };
 		4DD91CF01EBE2A0000887B6E /* SearchResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		4DD91CF51EBE2CC800887B6E /* GithubClientError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubClientError.swift; sourceTree = "<group>"; };
+		4DD91CF71EBE2D8F00887B6E /* GithubAPIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubAPIError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 		4D251C491EBC3B38009F71C7 /* GitHubSearchRepository */ = {
 			isa = PBXGroup;
 			children = (
+				4DD91CF21EBE2C9400887B6E /* Error */,
 				4D251C4A1EBC3B38009F71C7 /* main.swift */,
 				4DD91CE81EBE124700887B6E /* User.swift */,
 				4DD91CEA1EBE12B600887B6E /* Repository.swift */,
@@ -75,6 +80,15 @@
 				4DD91CF01EBE2A0000887B6E /* SearchResponse.swift */,
 			);
 			path = GitHubSearchRepository;
+			sourceTree = "<group>";
+		};
+		4DD91CF21EBE2C9400887B6E /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				4DD91CF51EBE2CC800887B6E /* GithubClientError.swift */,
+				4DD91CF71EBE2D8F00887B6E /* GithubAPIError.swift */,
+			);
+			name = Error;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +153,9 @@
 				4DD91CEF1EBE178700887B6E /* JSONDecodable.swift in Sources */,
 				4DD91CF11EBE2A0000887B6E /* SearchResponse.swift in Sources */,
 				4DD91CE91EBE124700887B6E /* User.swift in Sources */,
+				4DD91CF61EBE2CC800887B6E /* GithubClientError.swift in Sources */,
 				4D251C4B1EBC3B38009F71C7 /* main.swift in Sources */,
+				4DD91CF81EBE2D8F00887B6E /* GithubAPIError.swift in Sources */,
 				4DD91CEB1EBE12B600887B6E /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
