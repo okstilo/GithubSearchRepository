@@ -11,6 +11,7 @@
 		4DD91CE91EBE124700887B6E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD91CE81EBE124700887B6E /* User.swift */; };
 		4DD91CEB1EBE12B600887B6E /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD91CEA1EBE12B600887B6E /* Repository.swift */; };
 		4DD91CED1EBE131A00887B6E /* JSONDecodeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD91CEC1EBE131A00887B6E /* JSONDecodeError.swift */; };
+		4DD91CEF1EBE178700887B6E /* JSONDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD91CEE1EBE178700887B6E /* JSONDecodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		4DD91CE81EBE124700887B6E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4DD91CEA1EBE12B600887B6E /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		4DD91CEC1EBE131A00887B6E /* JSONDecodeError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecodeError.swift; sourceTree = "<group>"; };
+		4DD91CEE1EBE178700887B6E /* JSONDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecodable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				4DD91CE81EBE124700887B6E /* User.swift */,
 				4DD91CEA1EBE12B600887B6E /* Repository.swift */,
 				4DD91CEC1EBE131A00887B6E /* JSONDecodeError.swift */,
+				4DD91CEE1EBE178700887B6E /* JSONDecodable.swift */,
 			);
 			path = GitHubSearchRepository;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DD91CED1EBE131A00887B6E /* JSONDecodeError.swift in Sources */,
+				4DD91CEF1EBE178700887B6E /* JSONDecodable.swift in Sources */,
 				4DD91CE91EBE124700887B6E /* User.swift in Sources */,
 				4D251C4B1EBC3B38009F71C7 /* main.swift in Sources */,
 				4DD91CEB1EBE12B600887B6E /* Repository.swift in Sources */,
