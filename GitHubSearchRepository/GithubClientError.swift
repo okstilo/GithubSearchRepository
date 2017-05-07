@@ -10,7 +10,7 @@ import Foundation
 
 enum GithubClientError: Error {
     // 通信に失敗
-    case connectError(Error)
+    case connectionError(Error)
     // レスポンスの解釈に失敗
     case responseParseError(Error)
     // APIからのエラーレスポンスを受け取った
