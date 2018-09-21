@@ -36,7 +36,7 @@ class GithubClient {
                     completion(Result(error: .responseParseError(error)))
                 }
             default:
-                fatalError("invalid response combination \(data), \(response), \(error)")
+                fatalError("invalid response combination \(String(describing: data)), \(String(describing: response)), \(String(describing: error))")
             }
         }
         task.resume()
