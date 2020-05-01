@@ -1,7 +1,7 @@
 import XCTest
 
-import GithubSearchRepositoryTests
+import GitHubSearchTests
 
 var tests = [XCTestCaseEntry]()
-tests += GithubSearchRepositoryTests.allTests()
+tests += GitHubSearchTests.allTests()
 XCTMain(tests)

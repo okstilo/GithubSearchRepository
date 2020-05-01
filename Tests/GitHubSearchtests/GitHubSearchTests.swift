@@ -1,7 +1,7 @@
 import XCTest
 import class Foundation.Bundle
 
-final class GithubSearchRepositoryTests: XCTestCase {
+final class GitHubSearchTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
@@ -12,7 +12,7 @@ final class GithubSearchRepositoryTests: XCTestCase {
             return
         }
 
-        let fooBinary = productsDirectory.appendingPathComponent("GithubSearchRepository")
+        let fooBinary = productsDirectory.appendingPathComponent("GitHubSearch")
 
         let process = Process()
         process.executableURL = fooBinary
